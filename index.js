@@ -18,13 +18,13 @@ function addToCart(item)
 
 function viewCart() 
 {
-  var object = "In your cart, you have "
+  var object = "In your cart, you have"
   
   for(var i = 0; i < cart.length; i++)
   {
-    cart.length === 1 ? object += `${cart[i].itemName} at $${cart[i].itemPrice}.` :
-    i === cart.length - 1 ? object += `and ${cart[i].itemName} at $${cart[i].itemPrice}.` :
-    object += `and ${cart[i].itemName} at $${cart[i].itemPrice},`
+    cart.length === 1 ? object += ` ${cart[i].itemName} at $${cart[i].itemPrice}.` :
+    i === cart.length - 1 ? object += ` and ${cart[i].itemName} at $${cart[i].itemPrice}.` :
+    object += ` and ${cart[i].itemName} at $${cart[i].itemPrice},`
   }
   
   return cart.length === 0 ? `Your shopping cart is empty.` : object
