@@ -49,5 +49,5 @@ function removeFromCart(item)
 
 function placeOrder(cardNumber) 
 {
-  
+  return cardNumber === null ? 
 }
