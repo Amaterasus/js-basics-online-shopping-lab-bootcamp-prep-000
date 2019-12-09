@@ -52,7 +52,7 @@ function placeOrder(cardNumber)
   var validCard = false
   var price = total()
   
-  if(cardNumber != null)
+  if(cardNumber !== null)
   {
     validCard = true
     cart = []
