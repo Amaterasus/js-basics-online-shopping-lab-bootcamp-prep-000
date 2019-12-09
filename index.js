@@ -50,7 +50,7 @@ function removeFromCart(item)
 function placeOrder(cardNumber) 
 {
   var validCard = false
-  var total = total()
+  var price = total()
   
   if(cardNumber !== null)
   {
@@ -59,5 +59,5 @@ function placeOrder(cardNumber)
   }
   
   return validCard ? "Sorry, we don't have a credit card on file for you." :
-  `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
+  `Your total cost is $${price}, which will be charged to the card ${cardNumber}.`
 }
