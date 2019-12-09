@@ -47,9 +47,9 @@ function removeFromCart(item)
   // write your code here
 }
 
-function removeSpecificItem(item)
+function removeSpecificItem(itemIndex)
 {
-  getCart().splice(indexOfItemToRemove,1)
+  cart.splice(indexOfItemToRemove,1)
 }
 
 function placeOrder(cardNumber) 
