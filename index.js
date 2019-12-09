@@ -49,7 +49,7 @@ function removeFromCart(item)
 
 function removeSpecificItem(item)
 {
-
+  
 }
 
 function placeOrder(cardNumber) 
