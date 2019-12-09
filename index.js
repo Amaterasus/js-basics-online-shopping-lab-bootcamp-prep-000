@@ -44,7 +44,7 @@ function total()
 
 function removeFromCart(item) 
 {
-  return cart.indexOf(item) ? "was true"
+  return cart.indexOf(item) ? "was true" : "was false"
 }
 
 function removeSpecificItem(itemIndex)
