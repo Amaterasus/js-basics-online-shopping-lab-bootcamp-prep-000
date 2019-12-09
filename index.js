@@ -44,7 +44,7 @@ function total()
 
 function removeFromCart(item) 
 {
-  return 
+  return var indexOfItemToRemove = cart.indexOf(itemToRemove)
 }
 
 function removeSpecificItem(itemIndex)
