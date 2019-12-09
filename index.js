@@ -49,7 +49,7 @@ function removeFromCart(item)
 
 function removeSpecificItem(item)
 {
-  
+  getCart().splice(indexOfItemToRemove,1)
 }
 
 function placeOrder(cardNumber) 
