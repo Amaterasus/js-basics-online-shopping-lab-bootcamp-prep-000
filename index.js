@@ -49,7 +49,7 @@ function removeFromCart(item)
 
 function placeOrder(cardNumber) 
 {
-  if()
+  if(cardNumber != null)
   {
     
   }
