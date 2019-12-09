@@ -44,7 +44,7 @@ function total()
 
 function removeFromCart(item) 
 {
-  // write your code here
+  return 
 }
 
 function removeSpecificItem(itemIndex)
