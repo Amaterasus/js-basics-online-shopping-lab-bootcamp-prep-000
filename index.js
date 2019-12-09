@@ -34,7 +34,7 @@ function total()
 {
   var total = 0
   
-  for(var i = 0; cart.length < i; i++)
+  for(var i = 0; i < cart.length; i++)
   {
     total += cart[i].itemPrice
   }
