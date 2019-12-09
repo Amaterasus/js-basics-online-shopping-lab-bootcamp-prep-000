@@ -49,5 +49,6 @@ function removeFromCart(item)
 
 function placeOrder(cardNumber) 
 {
-  return cardNumber === null ? 
+  return cardNumber === null ? "Sorry, we don't have a credit card on file for you." :
+  ""
 }
