@@ -49,7 +49,7 @@ function removeFromCart(item)
 
 function placeOrder(cardNumber) 
 {
-  var validCard = true
+  var validCard = false
   var price = total()
   
   if(cardNumber === null)
