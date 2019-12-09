@@ -32,7 +32,7 @@ function viewCart()
 
 function total() 
 {
-  
+  for(var i = 0; cart.length < 1)
 }
 
 function removeFromCart(item) 
