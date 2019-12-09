@@ -47,6 +47,8 @@ function removeFromCart(item)
   // write your code here
 }
 
+function remove
+
 function placeOrder(cardNumber) 
 {
   var validCard = false
