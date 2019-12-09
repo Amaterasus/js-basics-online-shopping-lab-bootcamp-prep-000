@@ -20,7 +20,12 @@ function viewCart()
 {
   var object = "In your cart, you have "
   
-  
+  for(var i = 0; i < cart.length; i++)
+  {
+    cart.length === 1 ? object += ` ${itemName} at ${itemPrice}.` :
+    i === cart.length - 1 ? object += ` and ${itemName} at ${itemPrice}.` :
+    object += ` and ${itemName} at ${itemPrice},`
+  }
   
   return cart.length === 0 ? `Your shopping cart is empty.` : object
 }
