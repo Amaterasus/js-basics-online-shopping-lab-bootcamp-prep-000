@@ -50,11 +50,13 @@ function removeFromCart(item)
 function placeOrder(cardNumber) 
 {
   var validCard = false
-  if(cardNumber != null)
+  
+  if(cardNumber !== null)
   {
     validCard = true
-    cart
+    cart = []
   }
-  return cardNumber == null ? "Sorry, we don't have a credit card on file for you." :
+  
+  return validCard ? "Sorry, we don't have a credit card on file for you." :
   ""
 }
