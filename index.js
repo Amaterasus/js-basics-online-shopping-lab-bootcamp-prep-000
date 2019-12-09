@@ -58,6 +58,6 @@ function placeOrder(cardNumber)
     cart = []
   }
   
-  return validCard ? "Sorry, we don't have a credit card on file for you." :
+  return !validCard ? "Sorry, we don't have a credit card on file for you." :
   `Your total cost is $${price}, which will be charged to the card ${cardNumber}.`
 }
