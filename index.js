@@ -36,7 +36,7 @@ function total()
   
   for(var i = 0; cart.length < i; i++)
   {
-    
+    total += 
   }
   
   return total
