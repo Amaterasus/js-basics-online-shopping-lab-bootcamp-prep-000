@@ -59,5 +59,5 @@ function placeOrder(cardNumber)
   }
   
   return validCard ? "Sorry, we don't have a credit card on file for you." :
-  ""
+  `eturn Your total cost is $71, which will be charged to the card 83296759.
 }
