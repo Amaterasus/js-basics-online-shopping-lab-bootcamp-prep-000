@@ -50,6 +50,7 @@ function removeFromCart(item)
 function placeOrder(cardNumber) 
 {
   var validCard = false
+  var total = total()
   
   if(cardNumber !== null)
   {
