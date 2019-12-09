@@ -22,7 +22,7 @@ function viewCart()
   
   for(var i = 0; i < cart.length; i++)
   {
-    cart.length === 1 ? object += ` ${cart[itemName][i]} at ${cart[itemPrice][i]}.` :
+    cart.length === 1 ? object += ` ${cart.itemName[i]} at ${cart.itemPrice[i]}.` :
     i === cart.length - 1 ? object += ` and ${itemName} at ${itemPrice}.` :
     object += ` and ${itemName} at ${itemPrice},`
   }
