@@ -18,7 +18,10 @@ function addToCart(item)
 
 function viewCart() 
 {
-  var object 
+  var object = "In your cart, you have "
+  
+  
+  
   return cart.length === 0 ? `Your shopping cart is empty.` : object
 }
 
